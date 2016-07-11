@@ -1,0 +1,8 @@
+在IE8里测试的时候发现li在hover的时候background-color的属性不能生效，其他的属性都可以；麻烦老师给看看；
+
+#main ul>li:hover{
+    background-color: #9C9393;
+    font-size:18px\9;
+    font-weight:bolder\9;
+}
+老师也没有办法！

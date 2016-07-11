@@ -1,0 +1,75 @@
+﻿/*这个是最外层的div的样式*/
+#main {
+    width: 440px;
+    height: auto;
+    overflow: hidden;
+    margin: 10px auto;
+    border: #fff 1px solid;
+    padding-bottom: 10px;
+    background-color: #ccc;
+
+}
+/*这个是显示运算过程的div的样式*/
+#calOutput {
+    width: 350px;
+    height: 30px;
+    margin: 25px 0 0 45px;
+    /*border: 1px solid #444 !important;*/
+    background-color: #E0D4D4;
+    border-radius: 10px;
+    behavior: url(css/ie-css3.htc);
+    z-index: 2;
+    position: relative;
+    text-align: right;
+    font-size: 14px;
+    line-height: 30px;
+    box-sizing: border-box;
+    padding-right: 15px;
+
+}
+/*这个是显示运算结果的div的样式*/
+#showCal {
+    width: 350px;
+    height: 30px;
+    margin: 25px 0 -38px 45px;
+    /*border: 1px solid #444 !important;*/
+    background-color: #E0D4D4;
+    border-radius: 10px;
+    behavior: url(css/ie-css3.htc);
+    line-height: 20px;
+    z-index: 2;
+    position: relative;
+    font-size: 12px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+/*ul的样式*/
+#main ul {
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+
+#main ul>li {
+    list-style: none;
+    float: left;
+    width: 62px;
+    height: 32px;
+    margin: 5px;
+    display: inline-block;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+     background-color: #E4DCDC;
+    border-radius: 4px;
+    behavior: url(css/ie-css3.htc);
+    /*z-index: 2;*/
+}
+#main ul>li:hover{
+    background-color: #9C9393;
+    font-size:18px\9;
+    font-weight:bolder\9;
+}
+
+
